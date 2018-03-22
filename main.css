@@ -1,0 +1,100 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: #ffea5b;
+}
+
+.app {
+  height: 300vh;
+  max-height: 4000px;
+}
+
+.fixed-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sequence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sequence svg {
+  display: block;
+}
+
+@media (max-aspect-ratio: 1332/1601) {
+  .sequence svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-aspect-ratio: 1332/1601) {
+  .sequence svg {
+    width: auto;
+    height: 100%;
+  }
+}
+
+[id='men'] > g {
+  visibility: hidden;
+}
+
+[id='men'] > g.is-active {
+  visibility: visible;
+}
+
+.title {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+@media (min-aspect-ratio: 1332/1601) {
+  .title {
+    width: 50%;
+    text-align: right;
+  }
+
+  .app--hate .title {
+    padding-right: 12.6vh;
+  }
+
+  .app--love .title {
+    padding-right: 20.6vh;
+  }
+}
+
+@media (min-width: 650px) and (min-height: 600px) {
+  .title {
+    font-size: 4.5em;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+  .title {
+    font-size: 6.5em;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 800px) {
+  .title {
+    font-size: 10.5em;
+  }
+}
