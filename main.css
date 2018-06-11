@@ -17,6 +17,7 @@ body {
 .app {
   height: 300vh;
   max-height: 4000px;
+  overflow: hidden;
 }
 
 .fixed-container {
@@ -25,76 +26,129 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  transform: translateZ(0);
 }
 
 .sequence {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sequence svg {
   display: block;
+  height: 120vh;
+  width: auto;
+  position: relative;
+  top: -15vh;
 }
 
-@media (max-aspect-ratio: 1332/1601) {
-  .sequence svg {
-    width: 100%;
-    height: auto;
-  }
+.sequence--hate {
+  left: calc(50% - (120vh * 0.75) / 2);
 }
 
-@media (min-aspect-ratio: 1332/1601) {
-  .sequence svg {
-    width: auto;
-    height: 100%;
-  }
+.sequence--love {
+  left: calc(50% - (120vh * 0.64) / 2);
 }
 
-[id='men'] > g {
+[data-name^='sequence'] {
   visibility: hidden;
 }
 
-[id='men'] > g.is-active {
+[data-name^='sequence'].is-active {
   visibility: visible;
 }
 
 .title {
+  position: absolute;
+  bottom: 79vh;
+  left: 4.5vw;
   font-family: 'Fira Sans', sans-serif;
-  font-size: 2.5rem;
+  font-size: 10.5vmin;
+  line-height: 0;
+  letter-spacing: 0.03em;
+  padding-bottom: 0.65ex;
   font-weight: bold;
   white-space: nowrap;
 }
 
-@media (min-aspect-ratio: 1332/1601) {
-  .title {
-    width: 50%;
-    text-align: right;
+.link {
+  position: absolute;
+  bottom: 64.5vh;
+  left: 4.5vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 6.5vmin;
+  line-height: 0;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  padding-bottom: 0.65ex;
+  white-space: nowrap;
+  color: #feea5b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.share {
+  display: flex;
+  position: absolute;
+  left: 4.5vw;
+  bottom: 2vh;
+}
+
+.share__item {
+  width: 50px;
+  height: 50px;
+  background-color: #feea5b;
+  cursor: pointer;
+}
+
+.share__item + .share__item {
+  margin-left: 5px;
+}
+
+@media (min-width: 50vh) {
+  .share,
+  .link {
+    left: calc(50% - 120vh * 0.19);
   }
 
-  .app--hate .title {
-    padding-right: 12.6vh;
-  }
-
-  .app--love .title {
-    padding-right: 20.6vh;
+  .link {
+    bottom: 62vh;
+    font-size: 3.7vh;
   }
 }
 
-@media (min-width: 650px) and (min-height: 600px) {
-  .title {
-    font-size: 4.5em;
+@media (min-width: 80vh) {
+  .link {
+    left: calc(50% + 120vh * 0.23);
+    bottom: 79vh;
+    color: #1d00ff;
+  }
+
+  .share {
+    left: 4.3vw;
+  }
+
+  .share__item {
+    background-color: #1d00ff;
   }
 }
 
-@media (min-width: 1000px) and (min-height: 700px) {
-  .title {
-    font-size: 6.5em;
+@media (min-width: 130vh) {
+  .fixed-container {
+    width: 130vh;
+    left: calc(50% - 130vh / 2);
   }
-}
 
-@media (min-width: 1500px) and (min-height: 800px) {
+  .sequence {
+    left: calc(130vh - (120vh * 0.85));
+  }
+
   .title {
-    font-size: 10.5em;
+    left: 33px;
+    font-size: 16vh;
+  }
+
+  .link {
+    left: calc(50% + 120vh * 0.35);
+    font-size: 6vh;
   }
 }

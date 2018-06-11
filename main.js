@@ -4,8 +4,7 @@
     activeLayer: null,
 
     init() {
-      const rootNode = document.querySelector('.app');
-      const sequenceNode = rootNode.querySelector('.sequence');
+      const sequenceNode = document.getElementById('sequence');
       const sequencePath = sequenceNode.getAttribute('data-path');
 
       return new Promise(resolve => {
@@ -15,7 +14,9 @@
             sequenceNode.innerHTML = svg;
           })
           .then(() => {
-            this.layers = Array.from(sequenceNode.querySelectorAll('#men > g'));
+            this.layers = Array.from(
+              sequenceNode.querySelectorAll('[data-name^=sequence]')
+            );
             resolve();
           });
       });
@@ -30,14 +31,14 @@
     },
 
     get position() {
-      const step = this.scrollHeight / this.layers.length;
+      const step = this.scrollHeight / (this.layers.length - 1);
       return ~~(this.scrollTop / step);
     },
 
     render() {
       const newActiveLayer = this.layers[this.position];
 
-      if (this.activeLayer === newActiveLayer || !newActiveLayer) return;
+      if (this.activeLayer === newActiveLayer) return;
 
       if (this.activeLayer) {
         this.activeLayer.classList.remove('is-active');

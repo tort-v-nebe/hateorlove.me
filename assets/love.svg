@@ -1,6 +1,6 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1699.4 2058.2">
-<g id="men">
-	<g id="man-1">
+<svg class="sequence sequence--love" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1699.4 2058.2">
+<defs>
+  <g id="man-1">
 		<path fill="#FFEA5B" d="M614.7,361.7L576,485l16.7,56.7l23.3,60l14,58.7l22.7,108l87.3,82c0,0,163.3-6.7,164-8.7
 			s61.3-110,61.3-110l23.3-119.3l-5.3-25.7l14.6-41l31.3-83.3l8-106.7L986,226.3L902,149l-219.3,92.7L614.7,361.7z"/>
 		<path fill="#9B38AA" d="M594.7,762.3L479.3,817L400,847l-55.3,21.3l-54.7,18L276,913l-38,94l-38,104.7l-20,54.7l-9.3,30.7
@@ -14,8 +14,8 @@
 		<path fill="#721B7F" d="M983.4,586.7l-7.3,36l-6,86.7l-6.7,43.3l-24.7,62l-38,64l-44,62l-18.7,34l-20,42l-24,82l35.3-76l24-36
 			l24-31.3c0,0,48-43.3,48.7-45.3s92.7-52.7,92.7-54.7s48.4-21.3,47.5-24.3c-0.9-3-17.5-39.7-18.2-41.7s-16.7-48.7-16.7-48.7l-10-40
 			l-5.3-48l-1.3-28.7l-7.3-26.7l-9.3-18l-10.7-6.7L983.4,586.7"/>
-		<polyline fill="#721B7F" points="549.7,766 580.7,738 604.1,706.2 620.7,675 626.7,643 636.7,687 649.7,746 667.7,839 675.7,897 
-			683.7,961 687.7,1025 686.7,1083 677.7,1151 671.7,1074 662.7,1031 651.7,992 637.7,952 610.7,898 581.7,840 555.7,794 
+		<polyline fill="#721B7F" points="549.7,766 580.7,738 604.1,706.2 620.7,675 626.7,643 636.7,687 649.7,746 667.7,839 675.7,897
+			683.7,961 687.7,1025 686.7,1083 677.7,1151 671.7,1074 662.7,1031 651.7,992 637.7,952 610.7,898 581.7,840 555.7,794
 			544.3,774.8 549.7,766 		"/>
 		<path fill="#721B7F" d="M786,1121.3c0,0,22-14,38-17s75-11,75-11l122-2l76,7l86,15l50,5c0,0,58-8,63-9l40,3l-6,62l-2,59l-39,195
 			l-15.7,153.7l0.7,171.3l14.3,287l-642,11c-1.3,5.9-8.1-152.6,17-268.3c1.3-5.9,8.7-80.7,8.7-80.7l16.7-114l20.7-112l26.7-121
@@ -261,7 +261,7 @@
 				c-12.8,14.2-26.2,28.4-42.8,37.5c-27.5,15.1-60.2,14.7-89.9,24.3C641,411.7,588,485.1,568,533.4"/>
 		</g>
 	</g>
-	<g id="man-36">
+  <g id="man-2">
 		<path fill="#9B38AA" d="M577.8,764.7L516.4,798l-99.3,40l-77.3,27.3L291.1,882l-12.7,22l-28.7,70.7l-43.3,97.3l-28,69.5l-8.5,30
 			l-10,10l-20.5,11l-16,23l-1,27.8l2.7,15.3l-16,10.7c0,0-24.7,14.7-26,16.7c-1.3,2-21.7,21.5-21.7,21.5l-14.7,31.2l-13,43.3
 			l-24,67.3l-8.7,43.3v37.3l4,32.7l2,18.7l8.7,21.3l17.3,26l22,18.7l18.7,7.3l33.3,2.7l45.3,2l25.3,1.3l32-8l48.7-19.3l96.5-79.3
@@ -275,8 +275,8 @@
 		<path fill="#721B7F" d="M983.1,584.7l-7.3,36l-6,86.7l-6.7,43.3l-24.7,62l-38,64l-44,62l-18.7,34l-20,42l-24,82l35.3-76l24-36
 			l24-31.3c0,0,48-43.3,48.7-45.3c0.7-2,92.7-52.7,92.7-54.7s48.4-21.3,47.5-24.3c-0.9-3-17.5-39.7-18.2-41.7
 			c-0.7-2-16.7-48.7-16.7-48.7l-10-40l-5.3-48l-1.3-28.7l-7.3-26.7l-9.3-18l-10.7-6.7L983.1,584.7"/>
-		<polyline fill="#721B7F" points="549.4,764 580.4,736 603.9,704.2 620.4,673 626.4,641 636.4,685 649.4,744 667.4,837 675.4,895 
-			683.4,959 687.4,1023 686.4,1081 677.4,1149 671.4,1072 662.4,1029 651.4,990 637.4,950 610.4,896 581.4,838 555.4,792 
+		<polyline fill="#721B7F" points="549.4,764 580.4,736 603.9,704.2 620.4,673 626.4,641 636.4,685 649.4,744 667.4,837 675.4,895
+			683.4,959 687.4,1023 686.4,1081 677.4,1149 671.4,1072 662.4,1029 651.4,990 637.4,950 610.4,896 581.4,838 555.4,792
 			544.1,772.8 549.4,764 		"/>
 		<path fill="#721B7F" d="M782.4,1116c0,0,22-14,38-17s75-11,75-11l122-2l76,7l86,15l50,5c0,0,58-8,63-9l28.7,4.7l-5.3,68.7l-4,48
 			l-26.3,197.7l-15.7,153.7l0.7,171.3l11.2,259.3L646.4,2026l6-68c0,0,19-175,19-181s9-84,9-84l12-106l18-113l22-124l22-106
@@ -517,5 +517,116 @@
 				c-12.8,14.2-26.2,28.4-42.8,37.5c-27.5,15.1-60.2,14.7-89.9,24.3c-48.5,15.6-101.5,88.9-121.5,137.3"/>
 		</g>
 	</g>
+</defs>
+<g data-name="sequence-00">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-01">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-02">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-03">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-04">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-05">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-06">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-07">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-08">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-09">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-10">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-11">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-12">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-13">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-14">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-15">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-16">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-17">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-18">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-19">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-20">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-21">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-22">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-23">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-24">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-25">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-26">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-27">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-28">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-29">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-30">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-31">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-32">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-33">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-34">
+ <use xlink:href="#man-1" />
+</g>
+<g data-name="sequence-35">
+ <use xlink:href="#man-2" />
+</g>
+<g data-name="sequence-36">
+ <use xlink:href="#man-1" />
 </g>
 </svg>
