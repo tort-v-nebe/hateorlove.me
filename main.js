@@ -1,5 +1,5 @@
-(function() {
-  const app = {
+(function createSequence() {
+  const sequence = {
     layers: [],
     activeLayer: null,
 
@@ -49,13 +49,23 @@
     },
   };
 
-  app.init().then(() => {
+  sequence.init().then(() => {
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleScroll);
     handleScroll();
   });
 
   function handleScroll() {
-    app.render();
+    sequence.render();
   }
+})();
+
+(function loadIcons() {
+  Array.from(document.querySelectorAll('[data-icon]')).forEach(node => {
+    const path = node.getAttribute('data-icon');
+
+    fetch(path)
+      .then(res => res.text())
+      .then(txt => (node.innerHTML = txt));
+  });
 })();
