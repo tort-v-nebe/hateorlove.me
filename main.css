@@ -102,6 +102,7 @@ body {
 }
 
 .share__item {
+  display: block;
   cursor: pointer;
 }
 
